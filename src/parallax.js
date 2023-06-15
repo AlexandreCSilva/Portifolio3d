@@ -4,12 +4,6 @@ import styled from 'styled-components';
 
 function Content() {
     const parallax = useRef()
-    let text = "Olá mundo!"
-    
-    setTimeout(() => {
-        text+= '.'
-    }, 100);
-    
 
     return (
         <Wrapper>
